@@ -1,0 +1,22 @@
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.project-list .project-card {
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+/*@media (max-width: 768px) {*/
+/*    .project-list {*/
+/*        flex-direction: column;*/
+/*        width: 100%;*/
+/*    }*/
+
+/*    .project-list .project-card {*/
+/*        width: 100%;*/
+/*    }*/
+/*}*/

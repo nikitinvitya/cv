@@ -1,0 +1,33 @@
+.footer {
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #3b3ffc;
+}
+
+@media (max-width: 1200px) {
+    .footer {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer {
+        padding: 6px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        padding: 4px;
+    }
+}

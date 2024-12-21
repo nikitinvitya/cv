@@ -1,0 +1,66 @@
+.App {
+  font-family: Arial, sans-serif;
+  background-color: #d6d6d6;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  padding: 0;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+}
+
+p, a, li {
+  font-size: 14pt;
+}
+
+@media (max-width: 1200px) {
+  .App {
+    width: 55%;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 992px) {
+  .App {
+    width: 60%;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .App {
+    width: 80%;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  p, a, li {
+    font-size: 13pt;
+  }
+}
+
+@media (max-width: 576px) {
+  .App {
+    width: 90%;
+    padding: 10px;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  p, a, li {
+    font-size: 12pt;
+  }
+}

@@ -1,0 +1,62 @@
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.project-card h3 {
+    margin-top: 0;
+}
+
+.project-card p {
+    color: #333;
+    word-break: break-word;
+}
+
+.project-card a {
+    text-decoration: none;
+}
+
+.project-card a:visited {
+    text-decoration: none;
+    color: #3c3fff;
+}
+
+@media (max-width: 1200px) {
+    .project-list {
+        width: 100%;
+    }
+
+    .project-list .project-card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .project-list {
+        width: 100%;
+    }
+
+    .project-list .project-card {
+        width: 70%;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-list {
+        width: 100%;
+    }
+
+    .project-list .project-card {
+        width: 70%;
+    }
+}
+
+@media (max-width: 576px) {
+    .project-list .project-card {
+        width: 50%;
+    }
+}

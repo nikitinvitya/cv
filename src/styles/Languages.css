@@ -1,0 +1,31 @@
+.languages li {
+    list-style: none;
+}
+
+.languages ul {
+    padding: 0;
+}
+
+@media (max-width: 1200px) {
+    .languages ul {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 992px) {
+    .languages ul {
+        padding: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .languages ul {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .languages ul {
+        padding: 12px;
+    }
+}
