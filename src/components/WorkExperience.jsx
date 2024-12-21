@@ -7,7 +7,7 @@ function WorkExperience() {
             <h2>Work Experience</h2>
             <div>
                 <h3>Freelance</h3>
-                <p>2023 - Present</p>
+                <p>2023 - now</p>
             </div>
         </section>
     );
